@@ -1,68 +1,70 @@
-
 /*general styles*/
 
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    boxing-size:border-box;
-  }
 
-  /*header*/
-  header 
-  {background-color: lightcoral;
-    
+/*header*/
+header {
+text-align: center;
+
+header h1{
+    margin:0;
+    background-color: #f08080;  
 }
- 
-/*main content*/
 
- /*body*/
-  body
-   {background-color:lightcoral ;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      
+header nav {
+    display:flex;
+    justify-content:center
+}
+
+section#home.about.instructor {
+    text-align: center;
+    color:#0000ff; }
+
+
+section#classes table {
+    margin:0 auto;
+}
+section#classes th,
+section#classes td {
+border: 1px solid #0000ff
+
+}
+
+section#feedback.feedback-form  {
+    display:flex;
+    flex-direction:column;
+    align-items:center;}
+
+section#feedback.feedback-form input,
+section#feedback.feedback-form textarea  {
+    width:300px;
+    border: 1px solid #00ff00;}
+
+section#contact form {
+  display:flex;
+  flex-direction:column;
+  align-items:center;}
+
+section#contact form input,
+section#contact form textarea {
+    width:300px;
+    border:1px solid #ffa500;}
+
+footer {
+    text-align:center;
+    background-color: #ffff00;}
+
+.social.media {
+    display:flex;
+    justify-content:center;}
     
-    a {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
-    font-family: Lato;
-  }
 
-  li {
-    display: inline;
-  }
 
-  nav {
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
-  }
 
-  img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
+
+
     
-  }
 
-  h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-  }
 
-  figure {
-    margin-top: 40px;
-  }
+    
