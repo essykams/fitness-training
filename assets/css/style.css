@@ -1,10 +1,30 @@
-ul {
+
+/*general styles*/
+
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+    boxing-size:border-box;
+  }
 
-a {
+  /*header*/
+  header 
+  {background-color: lightcoral;
+    
+}
+ 
+/*main content*/
+
+ /*body*/
+  body
+   {background-color:lightcoral ;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      
+    
+    a {
     border: 2px solid black;
     border-radius: 50%;
     width: 5rem;
@@ -15,34 +35,34 @@ a {
     margin: 4px 2px;
     border-radius: 16px;
     font-family: Lato;
-}
+  }
 
-li {
+  li {
     display: inline;
-}
+  }
 
-nav {
+  nav {
     text-align: center;
     border-bottom: 2px solid black;
     margin: 0px 20px 20px 20px;
     padding-bottom: 20px;
-}
+  }
 
-img {
+  img {
     border: 2px solid black;
     max-width: 60%;
     padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+  }
 
-}
-
-h1 {
+  h1 {
     font-family: Roboto, sans-serif;
     text-align: center;
-}
+  }
 
-figure {
+  figure {
     margin-top: 40px;
-}
+  }
