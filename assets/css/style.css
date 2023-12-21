@@ -5,6 +5,8 @@
 header {
 text-align: center;
 
+}
+/* header (h1)*/
 header h1{
     margin:0;
     background-color: #f08080;  
@@ -14,32 +16,39 @@ header nav {
     display:flex;
     justify-content:center
 }
+/*home section*/
 
 section#home.about.instructor {
     text-align: center;
     color:#0000ff; }
 
-
+/*classes section*/
 section#classes table {
     margin:0 auto;
 }
 section#classes th,
 section#classes td {
-border: 1px solid #0000ff
+border: 1px solid #0000ff;
+background-color:#f08080;
 
 }
 
+/*feedback section*/
 section#feedback.feedback-form  {
     display:flex;
     flex-direction:column;
-    align-items:center;}
+    align-items:center;
+    background-color:#f08080;
+}
 
 section#feedback.feedback-form input,
 section#feedback.feedback-form textarea  {
     width:300px;
-    border: 1px solid #00ff00;}
+    border: 1px solid#00ff00;}
 
-section#contact form {
+    /*contact section*/
+
+    section#contact form {
   display:flex;
   flex-direction:column;
   align-items:center;}
@@ -47,15 +56,26 @@ section#contact form {
 section#contact form input,
 section#contact form textarea {
     width:300px;
-    border:1px solid #ffa500;}
+    border:1px solid#ffa500;}
 
+    /*footer*/
 footer {
     text-align:center;
-    background-color: #ffff00;}
+    background-color: #ffff00;
+}
 
+/*social media*/
+ 
 .social.media {
     display:flex;
-    justify-content:center;}
+    justify-content: center;
+
+
+    
+
+
+
+     
     
 
 
