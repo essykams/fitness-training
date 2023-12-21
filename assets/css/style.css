@@ -30,11 +30,16 @@ header nav {
 
 section#home.about.instructor {
     text-align: center;
-    color:#0000ff; }
+    color:#0000ff; 
+    display: flex;
+    justify-content: center
+}
 
 /*classes section*/
 section#classes table {
     margin:0 auto;
+    display: flex;
+    justify-content: center
 }
 section#classes th,
 section#classes td {
@@ -47,14 +52,17 @@ background-color:#f08080;
 section#feedback.feedback-form  {
     display:flex;
     flex-direction:column;
-    align-items:center;
+    align-items:right;
     background-color:#f08080;
 }
 
 section#feedback.feedback-form input,
 section#feedback.feedback-form textarea  {
     width:300px;
-    border: 1px solid#00ff00;}
+    border: 1px solid#00ff00;
+    display: flex;
+    justify-content: center
+}
 
     /*contact section*/
 
