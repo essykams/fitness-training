@@ -19,12 +19,18 @@ text-align: center;
 header h1{
     margin:0;
     background-color: #f08080;  
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
-
-header nav {
+    nav {
     display:flex;
     justify-content:center
+
 }
 /*home section*/
 
