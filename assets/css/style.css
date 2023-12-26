@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /*general styles*/
 body {
     min-height: 100vh;
@@ -7,186 +7,178 @@ body {
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
-    font-family: sans-serif; lato;
-    
+    font-family: sans-serif;
+    lato;
 
 
-/*header*/
-header {
-text-align: center;
 
-}
-/* header */
-header {
-    margin:0;
-    background-color: #f08080;  
-    font-family:'Lucida Sans', 'sans-serif' ; 'lato' ; 'oswald'
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
- }
+    /*header*/
+    header {
+        text-align: center;
 
-  header a {
-    text-decoration: none;
-    color: inherit;
-}
-/* h1*/
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+    }
 
-#menu {
-    font-size: 110;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
+    /* header */
+    header {
+        margin: 0;
+        background-color: #f08080;
+        font-family: 'Lucida Sans', 'sans-serif';
+        'lato';
+        'oswald'
+        padding: 0 1rem;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 
-#menu > li {
-    margin-bottom: 1em;
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-}
+    /* h1*/
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #252525;
+    }
 
-.active {
-    border-bottom:1px solid #3a3a3a;
-}
-    
-/* navbar styles with drop down toogle*/
+    #menu {
+        font-size: 110;
+        letter-spacing: 4px;
+        list-style-type: none;
+    }
 
-nav {
-    position: absolute;
-    background-color: "ffffff";
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px;
-    display:none;
-    top: 100%;
-    
-}
+    #menu>li {
+        margin-bottom: 1em;
 
-/*nav toggle*/
-#nav-toggle:checked-nav {
-    display: block;
-}
+    }
 
-#nav-toggle {
-    display: none;
-}
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
+    /* navbar styles with drop down toogle*/
 
-    
-/*main content*/
+    nav {
+        position: absolute;
+        background-color: "ffffff";
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px;
+        display: none;
+        top: 100%;
+
+    }
+
+    /*nav toggle*/
+    #nav-toggle:checked-nav {
+        display: block;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
+
+
+    /*main content*/
 
     section#home.about.instructor {
-    text-align: center;
-    color:#0000ff; 
-    display: flex;
-    justify-content: center;
-}
+        text-align: center;
+        color: #0000ff;
+        display: flex;
+        justify-content: center;
+    }
+
     /*classes section*/
-section#classes table {
-    margin:0 auto;
-    display: flex;
-    justify-content: center;
-}
-section#classes th,
-section#classes td {
-border: 1px solid #0000ff;
-background-color:#f08080;
+    section#classes table {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
 
-}
+    section#classes th,
+    section#classes td {
+        border: 1px solid #0000ff;
+        background-color: #f08080;
 
-/*feedback section*/
-section#feedback.feedback-form  {
-    display:flex;
-    flex-direction:column;
-    align-items:right;
-    background-color:#f08080;
-}
+    }
 
-section#feedback.feedback-form input,
-section#feedback.feedback-form textarea  {
-    width:300px;
-    border: 1px solid#00ff00;
-    display: flex;
-    justify-content: center;
-}
+    /*feedback section*/
+    section#feedback.feedback-form {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        background-color: #f08080;
+    }
+
+    section#feedback.feedback-form input,
+    section#feedback.feedback-form textarea {
+        width: 300px;
+        border: 1px solid#00ff00;
+        display: flex;
+        justify-content: center;
+    }
 
     /*contact section*/
 
     section#contact form {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-section#contact form input,
-section#contact form textarea {
-    width:300px;
-    border:1px solid#ffa500;}
+    section#contact form input,
+    section#contact form textarea {
+        width: 300px;
+        border: 1px solid#ffa500;
+    }
 
     /*footer*/
-footer {
-    text-align:center;
-    background-color: #ffff00;
-}
-
-/*social media*/
- 
-.social.media {
-    display:flex;
-    justify-content: center;
-}
-
-/* media quary: tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
-    /*header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        
+    footer {
+        text-align: center;
+        background-color: #ffff00;
     }
 
-    #menu {
+    /*social media*/
+
+    .social.media {
         display: flex;
+        justify-content: center;
     }
-      
-    #menu > li {
-        padding-left: 1rem;
-    }
-     
-   .nav-toggle-label{
- display: none;
-}
-    
 
+    /* media quary: tablets and larger (768px and up)*/
+    @media screen and (min-width: 768px) {
 
+        /*header*/
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
 
-     
-    
+        }
 
+        #menu {
+            display: flex;
+        }
 
+        #menu>li {
+            padding-left: 1rem;
+        }
 
-
-
-
-
-    
-
-
-    
+        .nav-toggle-label {
+            display: none;
+        }
