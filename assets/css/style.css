@@ -1,184 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/*general styles*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*generic project styles*/
     color: #3a3a3a;
     font-family: sans-serif;
-    lato;
+}
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
-    /*header*/
-    header {
-        text-align: center;
+#menu {
+    letter-spacing: 4px;
+    list-style-type: none;
+}
 
-    }
+#menu>li {
+    margin-bottom: 1em;
+}
 
-    /* header */
-    header {
-        margin: 0;
-        background-color: #f08080;
-        font-family: 'Lucida Sans', 'sans-serif';
-        'lato';
-        'oswald'
-        padding: 0 1rem;
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 
-    header a {
-        text-decoration: none;
-        color: inherit;
-    }
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px;
+    display: none;
+    top: 100%;
+}
 
-    /* h1*/
-    h1 {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-            'Lucida Sans', Arial, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #252525;
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+section#home.about.instructor {
+    text-align: center;
+    color: #0000ff;
+    display: flex;
+    justify-content: center;
+}
+
+section#classes table {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+section#classes th,
+section#classes td {
+    border: #0000ff solid 1px;
+    background-color: #f08080;
+}
+
+section#feedback.feedback-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f08080;
+}
+
+section#feedback.feedback-form input,
+section#feedback.feedback-form textarea {
+    width: 300px;
+    border: #00ff00 solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+section#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#contact form input,
+section#contact form textarea {
+    width: 300px;
+    border: #ffa500 solid 1px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffff00;
+}
+
+.social.media {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
-        font-size: 110;
-        letter-spacing: 4px;
-        list-style-type: none;
+        display: flex;
     }
 
     #menu>li {
-        margin-bottom: 1em;
-
-    }
-
-    .active {
-        border-bottom: 1px solid #3a3a3a;
-    }
-
-    /* navbar styles with drop down toogle*/
-
-    nav {
-        position: absolute;
-        background-color: "ffffff";
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px;
-        display: none;
-        top: 100%;
-
-    }
-
-    /*nav toggle*/
-    #nav-toggle:checked-nav {
-        display: block;
-    }
-
-    #nav-toggle {
-        display: none;
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
-        font-size: 2rem;
+        display: none;
     }
-
-
-    /*main content*/
-
-    section#home.about.instructor {
-        text-align: center;
-        color: #0000ff;
-        display: flex;
-        justify-content: center;
-    }
-
-    /*classes section*/
-    section#classes table {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    section#classes th,
-    section#classes td {
-        border: 1px solid #0000ff;
-        background-color: #f08080;
-
-    }
-
-    /*feedback section*/
-    section#feedback.feedback-form {
-        display: flex;
-        flex-direction: column;
-        align-items: right;
-        background-color: #f08080;
-    }
-
-    section#feedback.feedback-form input,
-    section#feedback.feedback-form textarea {
-        width: 300px;
-        border: 1px solid#00ff00;
-        display: flex;
-        justify-content: center;
-    }
-
-    /*contact section*/
-
-    section#contact form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    section#contact form input,
-    section#contact form textarea {
-        width: 300px;
-        border: 1px solid#ffa500;
-    }
-
-    /*footer*/
-    footer {
-        text-align: center;
-        background-color: #ffff00;
-    }
-
-    /*social media*/
-
-    .social.media {
-        display: flex;
-        justify-content: center;
-    }
-
-    /* media quary: tablets and larger (768px and up)*/
-    @media screen and (min-width: 768px) {
-
-        /*header*/
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-
-        }
-
-        #menu {
-            display: flex;
-        }
-
-        #menu>li {
-            padding-left: 1rem;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
+}
