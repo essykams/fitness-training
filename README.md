@@ -1,39 +1,17 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+1. Purpose of the project- to develop a website for a Gym-Yoga instructor. The website is aiming at promoting and providing information about various yoga classes, schedules, the instructor's profile, and ways to contact and provide feedback. There is also a focus on connecting with the audience through social media platforms such as Facebook and Instagram.
+2. Features
+   Navigation menu with links to different sections such as Home, Schedule, Join Us, and Contact Us. There are also yoga Poses images of different yoga poses including standing yoga, sitting yoga, and stretching yoga. There is an introduction to Yoga instructor section which emphasizes on finding inner peace and balance through yoga practices.There is information about the instructor whci provide information about the yoga instructor's passion for improving physical and mental well-being through yoga and encourages users to join a class. There are also yoga class Schedules displayed on a table with different class names, days and times for different yoga classes.
+3. future features
+4. Typography and color scheme
+5. wireframes
+   === 1-6 for planning and then write code ===
+6. technology
+7. testing
+   8.1 code validation
+   8.2 test cases (user story based with screenshots)
+   8.3 fixed bugs
+   8.4 supported screens and browsers
+8. Deployment
+   9.1 via code anywhere
+   9.2 via github pages
+9. credits
