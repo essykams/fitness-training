@@ -16,27 +16,22 @@ header {
 text-align: center;
 
 }
-/* header (h1)*/
-header h1{
+/* header */
+header {
     margin:0;
     background-color: #f08080;  
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    'Lucida Sans Unicode', Verdana, sans-serif ;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-
-}
-    
-header a 
-
-{
     text-decoration: none;
     color: inherit;
 }
- h1 {
+/* h1*/
+h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
