@@ -33,6 +33,10 @@ Here are the testing steps performed:
 -Validation using W3C HTML and CSS validators to ensure code standards compliance
 
 !{HTML}(assets/documentaion/HTML-validation-error.png)
+!{HTML}(assets/documentation/HTML-validation-no-error.png)
+!{CSS}(assets/documentation/CSS-validation-no-error.png)
+
+The errors were corrected by running the codes on W3C validator severally until no errors or warnings were shown.
 
 -Debugging using DevTools to identify and fixed issues that had occured.
 
