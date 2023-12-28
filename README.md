@@ -20,6 +20,22 @@ This could include,Online class session, membership or subscriptions, personaliz
 
 ## Typography and color scheme
 
+Typography:
+
+- Body text: Sans-serif font family (such as Arial, Helvetica, or Calibri) is used for the body text.
+- Header text: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif font family is used for header text.
+- Links: Links are styled with no underline and the color is set to inherit.
+
+Color Scheme:
+
+- Main text color: #3a3a3a (a dark grey color) is used for the main text color.
+- Header text color: #252525 (a dark grey color) is used for header text.
+- Active menu item indicator: The active menu item is indicated by a 1px solid #3a3a3a (a dark grey color) border at the bottom.
+- Navigation background color: The navigation bar has a background color of #f08080 (a light coral color).
+- Feedback form background color: The feedback form section has a background color of #f08080 (a light coral color).
+- Contact form input and textarea border color: The contact form inputs and textarea have a border color of #ffa500 (an orange color).
+- Footer background color: The footer has a background color of #ffff00 (a yellow color).
+
 ## Technologies Used
 
 HTML and CSS
@@ -58,8 +74,8 @@ This error was debugged by following this steps:
 
 ## fixed bugs
 
-Automatic addition of closing tags to empty elements due to a feature of the(IDE) or text editor being used in code institute template These elemets are such as '<img>', '<input>','<meta>',
-and '<link>'.
+Automatic addition of closing tags to empty elements due to a feature of the(IDE) or text editor being used in code institute template These elemets are such as 'img', input','meta',
+and 'link'.
 These problems were attempted to be debugged but they still persisted. After I cleared the cache, checked the browser console, hard refreshed the page and running the code through the HTML validator and correcting the problems, the problems were solved when I corrected them on the W3C HTML validator and when I saved the 'no error found' codes on my HTML.index, the problems were again reflected.
 
 ## Deployment
