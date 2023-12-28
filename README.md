@@ -1,5 +1,7 @@
 # My first project
 
+### Yoga Intructor Website
+
 ## Description
 
 The repository contains a sample website for Gym-Yoga instructor with the purpose of developing, promoting and providing information about various yoga classes, schedules, the instructor's profile, and ways to contact and provide feedback. There is also a focus on connecting with the audience through social media platforms such as Facebook and Instagram.
@@ -54,13 +56,26 @@ This error was debugged by following this steps:
 !{screenshot}(assets/documentation/ipadmini-screen.png)
 !{screenshoot}(assets/documentation/samsungfold-screen.png)
 
-8.2 test cases (user story based with screenshots)
+## fixed bugs
 
-    8.3 fixed bugs
+Automatic addition of closing tags to empty elements due to a feature of the(IDE) or text editor being used in code institute template These elemets are such as '<img>', '<input>','<meta>',
+and '<link>'.
+These problems were attempted to be debugged but they still persisted. After I cleared the cache, checked the browser console, hard refreshed the page and running the code through the HTML validator and correcting the problems, the problems were solved when I corrected them on the W3C HTML validator and when I saved the 'no error found' codes on my HTML.index, the problems were again reflected.
 
-    8.4 supported screens and browsers
+## Deployment
 
-1. Deployment
-   9.1 via code anywhere
-   9.2 via github pages
-2. credits
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  The live link can be found here - <"https://github.com/essykams/fitness-training/blob/main/index.html">
+
+## credits
+
+### Media
+
+- The photos used on the home and social media icons are from This Open Source site
+  <"<https://me.popsugar.com/fitness/Most-Common-Yoga-Poses-Pictures-39744220#photo-39744167">
+  <"https://iconduck.com/icons/14063/facebook.png">
+  <"https://iconduck.com/icons/193720/social-instagram.png">
