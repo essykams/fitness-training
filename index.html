@@ -1,29 +1,27 @@
+html
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
- /    <link rel="stylesheet" href="assets/css/style.css">
-   /  <!--meta tags for search engine-->
-    <meta name="description" content="Gym-yoga,Yoga-instructor website">
-     /<meta name="keywords" content="Gym,yoga,instructor,fitness">
-    <t /itle>Gym-Yoga</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--meta tags for search engine-->
+    <meta name="description" content="Gym-yoga, Yoga-instructor website" />
+    <meta name="keywords" content="Gym, yoga, instructor, fitness" />
+    <title>Gym-Yoga</title>
     <!--favicon-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/favicon/apple-touch-icon.png"
     />
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="assets/favicon/favicon-32x32.png"
     />
-
     <link
       rel="icon"
       type="image/png"
@@ -34,6 +32,7 @@
 
   <body>
     <!--header-->
+
     <header>
       <a href="index.html">
         <h1 id="logo">Gym-Yoga, Instructor Website</h1>
@@ -62,14 +61,12 @@
             height="300"
             alt="image of standing yoga"
           />
-
           <img
-            src="assets/images/hathaa-yoga.jpg"
+            src="assets/images/hatha-yoga.jpg"
             width="400"
             height="300"
             alt="image of sitting yoga"
           />
-
           <img
             src="assets/images/vinyasa-yoga.jpg"
             width="400"
@@ -84,7 +81,7 @@
 
     <section id="hero">
       <h3>
-        Welcome to Yoga with<span class="instructor-name">Lockey Kenn</span>
+        Welcome to Yoga with <span class="instructor-name">Lockey Kenn</span>
       </h3>
       <p>Find your inner peace and balance through yoga practice</p>
     </section>
@@ -92,13 +89,13 @@
     <!--Information about the instructor-->
 
     <section id="home">
-      <div class="about.instructor">
+      <div class="about-instructor">
         <h4>About the Instructor</h4>
         <p>
           I am passionate about helping people to improve physical and mental
-          well.being through practice of yoga.
+          well-being through the practice of yoga.
         </p>
-        <p>Join me for a class and experience the benefit of yoga</p>
+        <p>Join me for a class and experience the benefits of yoga</p>
       </div>
     </section>
 
@@ -106,7 +103,7 @@
 
     <section id="classes">
       <h3>Classes</h3>
-      <h4>Weekely Schedule</h4>
+      <h4>Weekly Schedule</h4>
       <table>
         <tr>
           <th>Class</th>
@@ -115,36 +112,38 @@
         </tr>
         <tr>
           <td>Vinyasa Yoga</td>
-          <td>Mondays & Wednesdays</td>
+          <td>Mondays &amp; Wednesdays</td>
           <td>5:00 PM - 6:30 PM</td>
         </tr>
         <tr>
           <td>Hatha Yoga</td>
-          <td>Tuesdays & Thursdays</td>
+          <td>Tuesdays &amp; Thursdays</td>
           <td>6:00 PM - 7:30 PM</td>
         </tr>
         <tr>
-          <td>vinyasa</td>
+          <td>Vinyasa</td>
           <td>Fridays</td>
           <td>5:00 PM - 6:30 PM</td>
         </tr>
       </table>
-
       <p>Check out the schedule and join us for a class!</p>
     </section>
+
     <!--information on how to give feedback-->
+
     <section id="feedback">
       <h3>Feedback</h3>
       <p>
-        We value your feedback. Please share your experience with our classes
+        We value your feedback. Please share your experience with our classes.
       </p>
       <form class="feedback-form">
         <div>
-          <label id="name">Name:</label>
+          <label for="your-name">Name:</label>
           <input type="text" id="your-name" name="name" />
         </div>
         <div>
-          <textarea id="name=" rows="4"></textarea>
+          <label for="your-feedback">Feedback:</label>
+          <textarea id="your-feedback" name="feedback" rows="4"> </textarea>"
         </div>
         <div>
           <input type="submit" value="Submit" />
@@ -155,32 +154,33 @@
     <!--how to contact us-->
 
     <section id="contact">
-      <h3>Contact Us</h3>
+      <h3>Contact US</h3>
       <form action="submit_contact_form.php" method="post">
-        <textarea id="message" name="your-message" required></textarea>
+        <textarea id="message" name="your<message" required></textarea>
         <input type="submit" value="Submit" />
       </form>
     </section>
 
-    <!--how to connect us on social media-->
+    <!--how to connect with us-->
 
-    <footer>
-      <p>Connect with us on social media</p>
-      <div class="social.media">
-        <a
-          ><img
-            src="https://iconduck.com/icons/14063/facebook"
+    <section>
+      <h3>Connect with us on social media</h3>
+      <div class="social-media">
+        <a href="https://www.facebook.com">
+          <img
+            src="https://iconduck.com/icons/14063/facebook.png"
             alt="Facebook"
           />
         </a>
-        <a
-          ><img
-            src="https://bodybeyondlimits.com.au/instagram-circle-icon-png-4/"
-            alt="Instagram"
-        /></a>
+        <a href="https://www.instagram.com">
+          <img
+            src="https://iconduck.com/icons/193720/social-instagram.png"
+            alt="instagram"
+          />
+        </a>
       </div>
+    </section>
 
-      &copy;2023 Yoga with Lockey Kenn:
-    </footer>
+    <footer>&copy;2023 Yoga with Lockey Kenn</footer>
   </body>
 </html>
